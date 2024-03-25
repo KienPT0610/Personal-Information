@@ -37,7 +37,7 @@ body {
     margin: 10px;
     width: 70%;
     height: 280px;
-    /* background-color: red; */
+    background-color: red;
     border-left: 3px solid black;
     border-right: 3px solid black;
 }
