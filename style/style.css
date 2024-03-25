@@ -3,12 +3,11 @@
   padding: 0;  
 }
 
-
 body {
     margin-top: 8px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color:beige;
+    /* background-color: blueviolet; */
 }
 
 #header {
@@ -65,4 +64,28 @@ body {
 .menu-massage i{
     margin: 0 20px;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 46.718em) {
+    body {
+        margin: 5px;
+        padding: 0;
+    }
+    #header {
+        display: block;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .avata {
+        position: inherit;
+        /* margin: 20px; */
+        padding: 20px;
+        width: auto;
+        height: 400px;
+    }
+    .basic-info {
+        width: auto;
+        height: 400px;
+    }
 }
