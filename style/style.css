@@ -78,10 +78,15 @@ body {
         height: 1000px; 
     }
 
+    .basic-info h2, h3, h1 {
+        font-family:'Courier New', Courier, monospace;
+    }
+
     .avata {
         margin-left: 20%;
         margin-right: 20%;
-        width: auto;
+        width: 60%;
+        height: 240px;
         border-radius: 50%;
         border: 3px solid wheat;  
     }
